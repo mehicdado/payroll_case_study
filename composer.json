@@ -1,0 +1,27 @@
+{
+  "name": "mehicdado/payroll-case-study-php",
+  "description": "This is the project with examples from Uncle Bob's Book Agile Principles Patterns and Practices but using PHP.",
+  "authors": [
+    {
+      "name": "Damir Mehic",
+      "email": "mehicdado@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "PayrollCaseStudy\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "PayrollCaseStudy\\Tests\\": "src/Tests/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "3.7.*"
+  }
+}
